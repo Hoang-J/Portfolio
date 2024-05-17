@@ -2671,6 +2671,7 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3151,3 +3152,19 @@ input, select, textarea {
 					}
 
 	}
+
+	.skillDiv {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.skillDiv img {
+		margin: 25px;
+		width: 6%;
+		height: 6%;
+	}
+
+	/* .html-ring:hover {
+		background-color: ;
+	} */
