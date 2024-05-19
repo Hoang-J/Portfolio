@@ -2077,7 +2077,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #9c9c9c96;
+			background: #c2c0c083;
 		}
 
 		input[type="button"].alt,
@@ -2232,12 +2232,13 @@ input, select, textarea {
 			display: inline-block;
 			/* border-radius: 100%; */
 			width: 15%;
-			height: 50px;
+			/* height: 10%; */
 			/* line-height: 4.5em; */
 			text-align: center;
 			font-size: 1.25em;
-			padding: 0;
-			padding-top: 6px;
+			padding: 0.5%;
+			padding-right: 1%;
+			
 		}
 
 		#header hr {
@@ -3153,6 +3154,29 @@ input, select, textarea {
 
 	}
 
+	.button1 {
+		
+		background-color: #8360607c;
+		color: #483949;
+		width: 10%;
+		font-size: 72%;
+	}
+	
+	.button1:hover {
+		background-color: #1c09206c;
+		color: rgb(240, 233, 233);
+	}
+
+	.button2 {
+		background-color: #8360607c;
+		color: #483949;
+	}
+
+	.button2:hover {
+		background-color: #1c09206c;
+		color: rgb(240, 233, 233);
+	}
+
 	.skillDiv {
 		display: flex;
 		flex-wrap: wrap;
@@ -3161,8 +3185,23 @@ input, select, textarea {
 
 	.skillDiv img {
 		margin: 25px;
-		width: 6%;
-		height: 6%;
+		width: 5%;
+		height: 5%;
+	}
+
+	.skill-text {
+		display: none;
+		font-size: 14px;
+		font-family: "Tsukimi Rounded", sans-serif;
+		font-weight: 800;
+		padding-right: 3%;
+		padding-top: 3%;
+		color: #483949;
+		
+	}
+	
+	.skill-ring:hover + .skill-text {
+		display: block;
 	}
 
 	.categories {
@@ -3175,7 +3214,10 @@ input, select, textarea {
 		border-bottom: double;
 		border-color: #9c9c9c96;
 	}
-
-	/* .html-ring:hover {
-		background-color: ;
-	} */
+	
+	.interest-gif {
+		width: 100px;
+		height: 100px;
+		
+	}
+	
