@@ -3220,4 +3220,16 @@ input, select, textarea {
 		height: 100px;
 		
 	}
+
+	.about-me-pic {
+		margin-top: 5vh;
+		border-radius: 50%;
+		width: 30vh;
+	}
+
+	.about-me-text {
+		padding-top: 10vh;
+		width: 110vh;
+		float: right;
+	}
 	
