@@ -760,6 +760,8 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
+		
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2501,6 +2503,10 @@ input, select, textarea {
 				margin: 0 0 3em 0;
 			}
 
+			.location-contact {
+				font-size: 14pt;
+			}
+			
 		#footer .copyright {
 			text-align: center;
 			color: rgba(128, 128, 128, 0.75);
@@ -2659,6 +2665,11 @@ input, select, textarea {
 					margin: 0 1.25em 0 0;
 				}
 
+			#header .inner {
+				height: 50vh;
+			}
+
+			
 	}
 
 /* Normal */
@@ -2690,6 +2701,7 @@ input, select, textarea {
 				#header .inner {
 					padding-left: 2em;
 					padding-right: 2em;
+					height: 40vh;
 				}
 
 		/* Banner */
@@ -2717,7 +2729,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 11pt;
 				line-height: 1.65em;
 			}
 
@@ -2746,6 +2758,10 @@ input, select, textarea {
 					width: 18em;
 					margin: 0 1em 0 0;
 				}
+
+			#header .inner {
+				height: 30vh;
+			}
 
 	}
 
@@ -2960,7 +2976,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 50vh;
+				height: 31vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
@@ -3072,6 +3088,7 @@ input, select, textarea {
 					padding-top: 1.5em;
 					padding-left: 1em;
 					padding-right: 1em;
+					height: 30vh;
 				}
 
 				#header header > p {
@@ -3098,7 +3115,7 @@ input, select, textarea {
 				}
 
 				body.homepage #header h1 {
-					font-size: 2.5em;
+					font-size: 2.2em;
 				}
 
 		/* Nav */
@@ -3152,13 +3169,21 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+				.button1 {
+					margin-left: 12vh;
+				}
+
+				.about-me-pic {
+					
+					height: 20vh;
+				}
 	}
 
 	.button1 {
 		
 		background-color: #8360607c;
 		color: #483949;
-		width: 10%;
+		width: 20vh;
 		font-size: 72%;
 	}
 	
@@ -3170,6 +3195,7 @@ input, select, textarea {
 	.button2 {
 		background-color: #8360607c;
 		color: #483949;
+		margin-top: 5%;
 	}
 
 	.button2:hover {
@@ -3223,13 +3249,16 @@ input, select, textarea {
 
 	.about-me-pic {
 		margin-top: 5vh;
+		margin-left: 8vh;
 		border-radius: 50%;
 		width: 30vh;
+
 	}
 
 	.about-me-text {
-		padding-top: 10vh;
-		width: 110vh;
-		float: right;
+		padding-top: 5vh;
 	}
 	
+	.about-me-div {
+		display: flex;
+	}
