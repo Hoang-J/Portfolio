@@ -3249,7 +3249,7 @@ input, select, textarea {
 
 	.about-me-pic {
 		margin-top: 5vh;
-		margin-left: 8vh;
+		margin-right: 8vh;
 		border-radius: 50%;
 		width: 30vh;
 
@@ -3261,4 +3261,5 @@ input, select, textarea {
 	
 	.about-me-div {
 		display: flex;
+		flex-direction: row-reverse;
 	}
